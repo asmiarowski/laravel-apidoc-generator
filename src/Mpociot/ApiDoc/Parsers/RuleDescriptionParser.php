@@ -23,7 +23,7 @@ class RuleDescriptionParser
      */
     public function getDescription()
     {
-        return $this->ruleDescriptionExist() ? $this->makeDescription() : [];
+        return $this->ruleDescriptionExist() ? $this->makeDescription() : null;
     }
 
     /**
